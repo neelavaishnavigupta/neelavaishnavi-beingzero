@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>neelavaishnavi</title>
 <link rel="shortcut icon" href="/static/apple-touch/wikipedia.png">
 <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
+<h1>vaishnavi</h1>
+<h3>1h51a05f8</h3>
 
-<h1>1h51a05f8</h1>
-<p>This is a paragraph.</p>
 <script src="js/site.js"></script>
 </body>
 </html>

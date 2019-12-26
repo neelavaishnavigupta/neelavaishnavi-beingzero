@@ -1,0 +1,169 @@
+Microsoft Windows [Version 10.0.17134.885]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\LENOVO>cd desktop
+
+C:\Users\LENOVO\Desktop>cd neelavaishnavi-beingzero
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>cd private
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero\private>cd html
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero\private\html>notepad resume.html
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero\private\html>cd ..
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero\private>cd css
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero\private\css>notepad resume.css
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero\private\css>cd ..
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero\private>cd js
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero\private\js>notepad resume.js
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero\private\js>cd ..
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero\private>cd html
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero\private\html>notepad resume.html
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero\private\html>notepad resume.html
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero\private\html>notepad index.js
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero\private\html>cd ..
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero\private>cd ..
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>notepad index.js
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>git add -A
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Procfile.txt
+        modified:   index.js
+        new file:   private/css/resume.css
+        modified:   private/html/index.html
+        new file:   private/html/index.js
+        new file:   private/html/resume.html
+        new file:   private/image/GPAT_AdmitCard KAVYA.pdf
+        new file:   private/image/GPAT_AdmitCard.pdf
+        new file:   private/js/resume.js
+        modified:   private/js/site.js
+        new file:   public/html/1.txt
+        new file:   public/html/index.html
+        new file:   public/html/index.js.txt
+
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>git push
+Everything up-to-date
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>git add -A
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Procfile.txt
+        modified:   index.js
+        new file:   private/css/resume.css
+        modified:   private/html/index.html
+        new file:   private/html/index.js
+        new file:   private/html/resume.html
+        new file:   private/image/GPAT_AdmitCard KAVYA.pdf
+        new file:   private/image/GPAT_AdmitCard.pdf
+        new file:   private/js/resume.js
+        modified:   private/js/site.js
+        new file:   public/html/1.txt
+        new file:   public/html/index.html
+        new file:   public/html/index.js.txt
+
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>git commit -m "create resume"
+[master f15ebea] create resume
+ 13 files changed, 140 insertions(+), 7 deletions(-)
+ create mode 100644 Procfile.txt
+ create mode 100644 private/css/resume.css
+ create mode 100644 private/html/index.js
+ create mode 100644 private/html/resume.html
+ create mode 100644 private/image/GPAT_AdmitCard KAVYA.pdf
+ create mode 100644 private/image/GPAT_AdmitCard.pdf
+ create mode 100644 private/js/resume.js
+ create mode 100644 public/html/1.txt
+ create mode 100644 public/html/index.html
+ create mode 100644 public/html/index.js.txt
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>git push
+Enumerating objects: 30, done.
+Counting objects: 100% (30/30), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (18/18), done.
+Writing objects:  57% (11/19), 1.39 MiB | 13.00 KiB/s
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>git add -A
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>git commit -m "create resume"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>git push
+Enumerating objects: 30, done.
+Counting objects: 100% (30/30), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (18/18), done.
+Writing objects:  57% (11/19), 1.23 MiB | 5.00 KiB/s
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>node index.js
+example app listening on port 3000!
+Error: ENOENT: no such file or directory, stat 'C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero\public\html\resume.html'
+^C
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>git add -A
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>git ststus
+git: 'ststus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>git add -A
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>git commit -m "create resume "
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>git push
+Enumerating objects: 30, done.
+Counting objects: 100% (30/30), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (18/18), done.
+Writing objects:  57% (11/19), 1.19 MiB | 22.00 KiB/s
+C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero>node index.js
+example app listening on port 3000!
+Error: ENOENT: no such file or directory, stat 'C:\Users\LENOVO\Desktop\neelavaishnavi-beingzero\public\html\resume.ht
